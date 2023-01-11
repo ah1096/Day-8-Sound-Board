@@ -5,12 +5,15 @@
     src: url('fonts/Kingthings_Petrock-webfont.woff');
 }
 
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: pink;
+    background-image: url('https://coolwallpapers.me/th700/5823736-elder-scrolls-iv-oblivion-hd-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Kingthings Petrock Regular';
     margin: 0;
     display: flex;
@@ -22,11 +25,13 @@ body {
     overflow:hidden;
 }
 
+
 .btn {
-    background-color: white;
-    border-radius: 5px;
-    border: none;
-    color: pink;
+    background-color: #faeed8;
+    border-radius: 3px;
+    border: 2px solid #daccaf;
+    box-shadow: 3px 5px #876349;
+    color: #876349;
     margin: 1rem;
     padding: 1.5rem 3rem;
     font-size: 1.2rem;
